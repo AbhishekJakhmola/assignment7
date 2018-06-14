@@ -1,0 +1,9 @@
+def findArea(r):
+	
+	PI = 3.142
+	
+	return PI * (r*r);
+
+r = float(input("Radius: "))
+
+print("The area is %.6f" %findArea(r))
